@@ -27,8 +27,19 @@ Styleguide 4.0
     margin: 0 auto;
 }
 
+.divider {
+    height: 1px;
+    background: $gray4;
+    margin: $baseline*2 0 $baseline;
+    width: 100%;
+}
+
 .clearfix {
     @include clearfix;
+}
+
+.space-b {
+    margin-bottom: $baseline;
 }
 
 .disabled{

@@ -24,7 +24,7 @@ body{
   font-family: $base-font;
   font-size: $font-size;
   line-height: $line-height;
-  min-height: 100%;
+  height: 100%;
   position: relative;
 }
 
@@ -110,6 +110,10 @@ pre{
     border-radius: 0;
     padding: 0;
   }
+}
+
+a {
+    text-decoration: none;
 }
 
 a:link{
