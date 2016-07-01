@@ -1,0 +1,27 @@
+.product-list
+    margin-top: $headersize
+.product-list__item
+    @include span-columns(6)
+    position: relative
+    margin-bottom: $baseline
+    display: block
+
+    &:link, &:visited
+        color: inherit
+        text-decoration: none
+
+    &:nth-of-type(2n+2)
+        margin-right: 0
+    img
+        display: block
+        width: 100%
+    h3
+        position: absolute
+        top: .5em
+        right: .5em
+        font-family: 'New Transport', helvetica
+        margin: 0
+        padding: 0
+        font-size: 14px
+        line-height: 14px
+        text-transform: uppercase

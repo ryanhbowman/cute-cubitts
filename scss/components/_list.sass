@@ -1,0 +1,15 @@
+.list
+    padding: 0
+    margin: 0
+    list-style: none
+    li a
+        line-height: $baseline*2
+        display: block
+        padding: 0 1em
+        @include clearfix
+        &:hover
+            background: $gray5
+    .list__arrow
+        float: right
+    &.list--lined li
+        border-bottom: 1px $gray3 solid

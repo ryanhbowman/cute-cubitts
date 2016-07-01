@@ -18,9 +18,28 @@ Markup:
 .ta-center                - text-align: center;
 .ta-right                - text-align: right;
 block-center:             - center images, etc
+.divider                    - split the page
+.no-m                    - no margin
+.no-p                    - no padding
 Styleguide 4.0
 
 */
+.no-m {
+    margin: 0;
+}
+
+
+
+.m-b {
+    margin-bottom: $baseline;
+}
+.m-b-small {
+    margin-bottom: $baseline/2;
+}
+
+.no-p {
+    padding: 0;
+}
 
 .block-center {
     display: block;

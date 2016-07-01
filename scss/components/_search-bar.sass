@@ -1,0 +1,15 @@
+.search-bar
+    line-height: $baseline*2
+    // border-bottom: 1px $gray3 solid
+    position: fixed
+    top: $baseline*2-1
+    width: 75%
+    background: white
+    z-index: $z-index-1
+
+    .search-bar__item
+        // border-right: 1px $gray3 solid
+        &:last-of-type
+            border-right: none
+        a
+            border-radius: 0
