@@ -104,7 +104,8 @@
                         <a href="" class="btn btn--full btn--plain">Accessories</a>
                     </div>
                 </header>
-                <article class="product-list">
+                <article class="product-list" style="relative">
+                    <div class="loading"><img src="img/balls.gif" alt="" /></div>
                     <a href="" class="product-list__item">
                         <img src="img/glasses.png" alt="" />
                         <h3>Ampton</h3>
