@@ -33,6 +33,9 @@ Styleguide 4.0
 .m-b {
     margin-bottom: $baseline;
 }
+.m-r {
+    margin-right: $baseline !important;
+}
 .m-b-small {
     margin-bottom: $baseline/2;
 }

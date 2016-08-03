@@ -2,14 +2,39 @@
     padding: 0
     margin: 0
     list-style: none
-    li a
+    li
         line-height: $baseline*2
         display: block
         padding: 0 1em
         @include clearfix
         &:hover
             background: $gray5
+        a
+            color: inherit
+    &.list--box
+        border-left: 1px $gray4 solid
+        border-right: 1px $gray4 solid
+    &.list--overflow
+        height: 265px
+        overflow: auto
+    &.list--normal
+        li
+            line-height: $baseline
+            padding: 1em 0
+    &.list--two-row
+        li
+            line-height: $baseline
+            padding: .5em 1em
+            position: relative
+            .list__arrow
+                float: right
+                line-height: 60px
+                position: absolute
+                top: 0
+                right: $baseline
+            small
+                color: $gray3
     .list__arrow
         float: right
     &.list--lined li
-        border-bottom: 1px $gray3 solid
+        border-bottom: 1px $gray4 solid

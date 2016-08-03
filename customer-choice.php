@@ -18,8 +18,14 @@
     <body>
         <?php include 'header.php'; ?>
             <aside class="sidebar sidebar--left sidebar--lined">
-                <ul class="list list--lined">
-                    <li><a href="">Ryan Bowman<span class="list__arrow">&rarr;</span></a></li>
+                <ul class="list list--lined list--two-row">
+                    <li>
+                        <a>
+                            Ryan Bowman<br/>
+                            <small>ryan@circle.co.ke</small>
+                            <span class="list__arrow">&rarr;</span>
+                        </a>
+                    </li>
                     <li><a href="">Alice Brett<span class="list__arrow">&rarr;</span></a></li>
                 </ul>
             </aside>

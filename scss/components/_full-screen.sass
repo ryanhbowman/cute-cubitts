@@ -21,17 +21,19 @@
         font-size: 18px
         line-height: 1em
 
-.full-screen__section--size label, .full-screen__section--color label, .full-screen__section--pres label
+.full-screen__section--size label, .full-screen__section--color label, .full-screen__section--pres label, .full-screen__section--prestype label
     @include span-columns(6)
     text-align: center
     padding: 1em
     border: 1px solid $gray5
 
 .full-screen__section--color label
-    @include span-columns(1 of 6)
+    @include span-columns(2)
     padding: 1em 0
 .full-screen__section--pres label
-    @include span-columns(4)
+    @include span-columns(3)
+.full-screen__section--prestype label
+    @include span-columns(3)
 
 
 

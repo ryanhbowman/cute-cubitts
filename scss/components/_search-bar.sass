@@ -1,6 +1,7 @@
 .search-bar
     line-height: $baseline*2
     // border-bottom: 1px $gray3 solid
+    margin-bottom: $baseline
     position: fixed
     top: $baseline*2-1
     width: 75%
@@ -9,7 +10,25 @@
 
     .search-bar__item
         // border-right: 1px $gray3 solid
+        position: relative
+        cursor: pointer
+        &:hover
+            background: $gray5
+            cursor: pointer
         &:last-of-type
             border-right: none
         a
             border-radius: 0
+        &.four
+            cursor: text
+.search--line
+    background: $gray3
+    width: 85%
+    height: 1px
+    position: absolute
+    margin: -12px 0 0 37px
+
+.input--search
+    background: url("/src/assets/images/search.png") 8px 12px/20px 20px no-repeat
+    width: 100%
+    padding: 0 0 0 36px

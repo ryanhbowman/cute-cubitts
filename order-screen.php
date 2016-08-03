@@ -18,6 +18,7 @@
     <body>
         <?php include 'header.php'; ?>
             <aside class="sidebar sidebar--right sidebar--lined">
+                <div class="loading"><img src="img/balls.gif" alt="" /></div>
                 <section class="sidebar__customer-info">
                     <div class="m-b-small">
                         <h4>Ryan Bowman </h4>
