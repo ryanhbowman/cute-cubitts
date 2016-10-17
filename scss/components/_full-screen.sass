@@ -1,5 +1,7 @@
 .full-screen
     padding: 0 1em 1em
+    margin-bottom: 6em
+    @include clearfix
 
 .full-screen__close
     position: absolute
@@ -11,6 +13,8 @@
     line-height: 50px
     text-transform: uppercase
     font-size: 20px
+    cursor: pointer
+    font-family: 'New Transport'
 .full-screen__section
     margin-bottom: $baseline
     @include clearfix
@@ -47,6 +51,6 @@
     bottom: 0
     left: 0
     right: 0
-    padding: 2em
+    padding: 0 2em 2em 2em
 .full-screen__hidden
     display: none

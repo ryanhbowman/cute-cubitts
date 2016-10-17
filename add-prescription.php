@@ -41,6 +41,10 @@
                     </section>
                     <section id="enter">
                         Enter
+                        <select class="input--full" name="">
+                            <option value="">Hello</option>
+                        </select>
+                        <input type="submit" name="name" value="input--full" class="input--full">
                     </section>
                     <section class="full-screen__submit">
                         <a href="" class="btn btn--full btn--yellow btn-giant">Add Prescription</a>

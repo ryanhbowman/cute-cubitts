@@ -161,7 +161,7 @@ select{
   box-shadow: 0 1px 2px 0 $gray5 inset;
   outline: none;
 }
-
+ 
 /*
 
 Radio
@@ -207,18 +207,18 @@ Styleguide 3.2
 
 */
 
-.checkbox:before,
-.checkbox__label:after{
-  border-radius: 2px;
-}
-
-.checkbox input[type=checkbox]:checked + .checkbox__label:after {
-  color: $primary-dark;
-  content: '\2714';
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-}
+// .checkbox:before,
+// .checkbox__label:after{
+//   border-radius: 2px;
+// }
+//
+// .checkbox input[type=checkbox]:checked + .checkbox__label:after {
+//   color: $primary-dark;
+//   content: '\2714';
+//   font-size: 14px;
+//   line-height: 18px;
+//   text-align: center;
+// }
 
 /*
 
